@@ -53,8 +53,8 @@ is the CPU one.
 | Parameters | Train Time | Eval Time
 | -----------|  --- | --- |
 | BatchSize=10000 npasses=0  | ERROR cuda memory allocation | --
-| BatchSize=500   npasses=0 |ERROR cuda memory allocation | 130.48s
-| BatchSize=20000 npasses=0 |ERROR cuda memory allocation| 148.90s
+| BatchSize=500   npasses=0 |ERROR cuda memory allocation | --
+| BatchSize=20000 npasses=0 |ERROR cuda memory allocation| --
 | BatchSize=40000 npasses=0 |1,6s| 0,96s
 | BatchSize=40000 npasses=2 |3,2s| 0,25s
 
