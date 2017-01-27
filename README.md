@@ -104,7 +104,7 @@ Time=1.5640 secs, gflops=17.92
 | BatchSize=40000 npasses=2 |78,8s| 3,12s
 
 #### Testbed:
-* 1 g2.8xlarge
+* 1 p2.xlarge
 * BidMach
 * Datasets: (Flights)[http://stat-computing.org/dataexpo/]
 
@@ -112,7 +112,6 @@ Time=1.5640 secs, gflops=17.92
 
 | Parameters | Train Time | Eval Time
 | -----------|  --- | --- |
-| BatchSize=40000 npasses=0 |47,22s| 5,56s
 | BatchSize=40000 npasses=2 |52,31| 2,03s
 
 
